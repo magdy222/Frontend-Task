@@ -13,7 +13,7 @@ import Image from 'next/image'
                         <p className='pb-3'>{name}</p>
                         <div className='flex justify-between items-center font-[400] text-[12px]'>
                             <span className='flex justify-center items-center'>
-                                <Image src="/Star.png" alt="image" width={14} height={14}/>
+                                <Image src="/gold.png" alt="image" width={14} height={14}/>
                                 <span className='ml-1'>4.8</span>
                             </span>
                             <div className='flex justify-center items-center'>

@@ -38,7 +38,7 @@ const Recommendations = () => {
             <div className='grid grid-cols-4 justify-between items-center wrap mx-auto gap-5 mt-10'>
                 <div className=' flex justify-center items-center flex-col w-[262px] h-[420px] bg-white rounded-lg'>
                     <div className='relative bg-[#B3BAC5] w-[36px] h-[36px] rounded-full left-[80px]  '>
-                        <Image src="/path.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
+                        <Image src="/heart.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
                     </div>
                     <div className='pt-12'>
                         <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +60,7 @@ const Recommendations = () => {
                 </div>
                 <div className=' flex justify-center items-center flex-col w-[262px] h-[420px] bg-[#B3BAC5] rounded-lg'>
                     <div className='relative bg-white w-[36px] h-[36px] rounded-full left-[80px]  '>
-                        <Image src="/path.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
+                        <Image src="/heart.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
                     </div>
                     <div className='pt-12'>
                         <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +81,7 @@ const Recommendations = () => {
                 </div>
                 <div className=' flex justify-center items-center flex-col w-[262px] h-[420px] bg-white rounded-lg'>
                     <div className='relative bg-[#B3BAC5] w-[36px] h-[36px] rounded-full left-[80px]  '>
-                        <Image src="/path.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
+                        <Image src="/heart.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
                     </div>
                     <div className='pt-12'>
                         <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -128,7 +128,7 @@ const Recommendations = () => {
                 
                 <div className=' flex justify-center items-center flex-col w-[262px] h-[420px] bg-white rounded-lg'>
                     <div className='relative bg-[#B3BAC5] w-[36px] h-[36px] rounded-full left-[80px]  '>
-                        <Image src="/path.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
+                        <Image src="/heart.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
                     </div>
                     <div className='pt-12'>
                         <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -149,7 +149,7 @@ const Recommendations = () => {
                 </div>
                 <div className=' flex justify-center items-center flex-col w-[262px] h-[420px] bg-white rounded-lg'>
                     <div className='relative bg-[#B3BAC5] w-[36px] h-[36px] rounded-full left-[80px]  '>
-                        <Image src="/path.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
+                        <Image src="/heart.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
                     </div>
                     <div className='pt-12'>
                         <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -170,7 +170,7 @@ const Recommendations = () => {
                 </div>
                 <div className=' flex justify-center items-center flex-col w-[262px] h-[420px] bg-white rounded-lg'>
                     <div className='relative bg-[#B3BAC5] w-[36px] h-[36px] rounded-full left-[80px]  '>
-                        <Image src="/path.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
+                        <Image src="/heart.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
                     </div>
                     <div className='pt-12'>
                         <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -191,7 +191,7 @@ const Recommendations = () => {
                 </div>
                 <div className=' flex justify-center items-center flex-col w-[262px] h-[420px] bg-white rounded-lg'>
                     <div className='relative bg-[#B3BAC5] w-[36px] h-[36px] rounded-full left-[80px]  '>
-                        <Image src="/path.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
+                        <Image src="/heart.png" alt="image" width={18} height={18} className='relative top-[10px] left-[9px]'/>
                     </div>
                     <div className='pt-12'>
                         <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
