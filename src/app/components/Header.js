@@ -4,17 +4,7 @@ import React, { useState} from 'react'
 import Image from 'next/image'
 
 function Header() {
-  const [isLandingOpen, setLandingOpen] = useState(false);
-  const [isPagesOpen, setPagesOpen] = useState(false);
-
-  const toggleLandingMenu = () => {
-    setLandingOpen(!isLandingOpen);
-  };
-
-  const togglePagesMenu = () => {
-    setPagesOpen(!isPagesOpen);
-  }; 
-
+ 
   return (
     <div className='container mx-auto w-[1440px] h-[880px] bg-[#B3BAC5]'>
     <div className='flex justify-between items-center w-[1140px] h-[100px]'>
@@ -24,62 +14,8 @@ function Header() {
       <div className='flex items-center space-x-5'>
       <ul className='flex items-center space-x-5 text-[#183B56] text-md font-medium'>
         <li>Home</li>
-        <li className='relative'>
-          <button
-            className='dropdown-toggle'
-            onClick={toggleLandingMenu}
-          >
-            Landing
-            <svg
-              className={`w-4 h-4 ml-1 transition-transform ${
-                isLandingOpen && 'transform rotate-'
-              }`}
-              xmlns='http://www.w3.org/2000/svg'
-              viewBox='0 0 20 20'
-              fill='currentColor'
-            >
-              <path
-                fillRule='evenodd'
-                d='M6 8l4 4 4-4H6z'
-              />
-            </svg>
-          </button>
-          {isLandingOpen && (
-            <ul className='dropdown-menu'>
-              <li>Landing Page 1</li>
-              <li>Landing Page 2</li>
-              <li>Landing Page 3</li>
-            </ul>
-          )}
-        </li>
-        <li className='relative'>
-          <button
-            className='dropdown-toggle'
-            onClick={togglePagesMenu}
-          >
-            Pages
-            <svg
-              className={`w-4 h-4 ml-1 transition-transform ${
-                isPagesOpen && 'transform rotate-180'
-              }`}
-              xmlns='http://www.w3.org/2000/svg'
-              viewBox='0 0 20 20'
-              fill='currentColor'
-            >
-              <path
-                fillRule='evenodd'
-                d='M6 8l4 4 4-4H6z'
-              />
-            </svg>
-          </button>
-          {isPagesOpen && (
-            <ul className='dropdown-menu'>
-              <li>Page 1</li>
-              <li>Page 2</li>
-              <li>Page 3</li>
-            </ul>
-          )}
-        </li>
+        <li>Landing</li>
+        <li>Pages</li>
         <li>Docs</li>
         <li>Help</li>
       </ul>
